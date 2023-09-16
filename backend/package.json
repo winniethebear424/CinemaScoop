@@ -1,0 +1,40 @@
+{
+  "name": "final-project-cinemascoop",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Rx1afNgR)\r # Assignment8 instruction\r [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)\r ## Team Information\r ### Team Name:&nbsp;&nbsp;CinemaScoop\r ### Team member: \r Fei Cao&nbsp;&nbsp;&nbsp;&nbsp;002642021&nbsp;&nbsp;&nbsp;&nbsp;cao.f@northeastern.edu</br>\r Zhongshun Wei&nbsp;&nbsp;&nbsp;&nbsp;001753421&nbsp;&nbsp;&nbsp;&nbsp;wei.zhong@northeastern.edu</br>\r Xianchu When&nbsp;&nbsp;&nbsp;&nbsp;002682297&nbsp;&nbsp;&nbsp;&nbsp;wen.xian@northeastern.edu</br>\r Wen Yu&nbsp;&nbsp;&nbsp;&nbsp;002602620&nbsp;&nbsp;&nbsp;&nbsp;yu.wen1@northeastern.edu</br>",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production&&nodemon server.js",
+    "start:prod-mac": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-oauth2-jwt-bearer": "^1.5.0",
+    "express-openid-connect": "^2.16.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "ndb": "^1.1.5",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

@@ -1,0 +1,166 @@
+openapi: 3.0.0
+info:
+  title: CinemaScoop API
+  version: 1.0.0
+servers:
+  - url: https://api.cinemascoop.com/v1
+paths: 
+  /user/{id}:
+    get:
+      summary: Get a user by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the user
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: A user object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+  /movie:
+    get:
+      parameters:
+        - name: title
+          in: query
+          description: the movie title
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Return movie descrption/
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Movie"
+  /movies/{id}:
+    get:
+      summary: Get a movie by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the movie
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: A movie object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Movie'
+  /reviews:
+    post:
+      summary: Create a new review
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Review'
+      responses:
+        '201':
+          description: The created review
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Review'
+  /reviews/{id}:
+    get:
+      summary: Get a review by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the review
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: A review object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Review'
+    put:
+      summary: Update a review by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the review
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Review'
+      responses:
+        '200':
+          description: The updated review
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Review'
+    delete:
+      summary: Delete a review by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The ID of the review
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successfully deleted
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        username:
+          type: string
+    Movie:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: The movie object identifier
+          example: 1
+        title:
+          type: string
+          description: The movie title
+          example: The shawshank Redemption
+        director:
+          type: string
+          description: the movie director
+          example: Frank Darabont
+        releaseYear:
+          type: integer
+          description: the movie release year
+          example: 1994
+        rate:
+          type: number
+          description: the rate of the movie
+    Review:
+      type: object
+      properties:
+        id:
+          type: integer
+        content:
+          type: string
+        movieId:
+          type: integer
+        userId:
+          type: integer

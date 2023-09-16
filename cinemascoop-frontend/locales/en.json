@@ -1,0 +1,21 @@
+{
+    "language": "Language",
+    "welcome": "Welcome to Movie Scoop, your go-to source for discovering and exploring the world of movies!",
+    "movieApp":"CinemaScoop",
+    "seeAll":"See all",
+    "SearchMovie":"Search movie",
+    "search":"Search",
+    "login":"Login",
+    "logout":"Logout",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "siteName": "CinemaScoop",
+    "rightsReserved": "All rights reserved.",
+    "Upcoming":"Upcoming Movies",
+    "Popular":"Popular Movies",
+    "Top":"Top Rated Movies",
+    "head":"About Movie Scoop",
+    "aboutIntro":"Welcome to Movie Scoop, your go-to source for discovering and exploring the world of movies!"
+}
+  

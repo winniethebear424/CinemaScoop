@@ -1,0 +1,95 @@
+{
+    "movies": [
+      {
+        "title": "The Shawshank Redemption",
+        "introduction": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "releaseYear": "1994",
+        "director": "Frank Darabont",
+        "writer": "Stephen King (short story \"Rita Hayworth and Shawshank Redemption\"), Frank Darabont (screenplay)",
+        "stars": "Tim Robbins, Morgan Freeman, Bob Gunton",
+        "rate": 9.3
+      },
+      {
+        "title": "The Godfather",
+        "introduction": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "releaseYear": "1972",
+        "director": "Francis Ford Coppola",
+        "writer": "Mario Puzo (screenplay by), Francis Ford Coppola (screenplay by)",
+        "stars": "Marlon Brando, Al Pacino, James Caan",
+        "rate": 9.2
+      },
+      {
+        "title": "The Dark Knight",
+        "introduction": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+        "releaseYear": "2008",
+        "director": "Christopher Nolan",
+        "writer": "Jonathan Nolan (screenplay), Christopher Nolan (screenplay)",
+        "stars": "Christian Bale, Heath Ledger, Aaron Eckhart",
+        "rate": 9.0
+      },
+      {
+        "title": "The Lord of the Rings: The Return of the King",
+        "introduction": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+        "releaseYear": "2003",
+        "director": "Peter Jackson",
+        "writer": "J.R.R. Tolkien (novel), Fran Walsh (screenplay), Philippa Boyens (screenplay), Peter Jackson (screenplay)",
+        "stars": "Elijah Wood, Viggo Mortensen, Ian McKellen",
+        "rate": 8.9
+      },
+      {
+        "title": "Pulp Fiction",
+        "introduction": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "releaseYear": "1994",
+        "director": "Quentin Tarantino",
+        "writer": "Quentin Tarantino (stories), Roger Avary (stories), Quentin Tarantino",
+        "stars": "John Travolta, Uma Thurman, Samuel L. Jackson",
+        "rate": 8.8
+      },
+      {
+        "title": "Schindler's List",
+        "introduction": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+        "releaseYear": "1993",
+        "director": "Steven Spielberg",
+        "writer": "Thomas Keneally (book), Steven Zaillian (screenplay)",
+        "stars": "Liam Neeson, Ralph Fiennes, Ben Kingsley",
+        "rate": 8.9
+      },
+      {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "introduction": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "releaseYear": "2001",
+        "director": "Peter Jackson",
+        "writer": "J.R.R. Tolkien (novel), Fran Walsh (screenplay), Philippa Boyens (screenplay), Peter Jackson (screenplay)",
+        "stars": "Elijah Wood, Ian McKellen, Orlando Bloom",
+        "rate": 8.8
+      },
+      {
+        "title": "Fight Club",
+        "introduction": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+        "releaseYear": "1999",
+        "director": "David Fincher",
+        "writer": "Chuck Palahniuk (novel), Jim Uhls (screenplay)",
+        "stars": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+        "rate": 8.8
+      },
+      {
+        "title": "Forrest Gump",
+        "introduction": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+        "releaseYear": "1994",
+        "director": "Robert Zemeckis",
+        "writer": "Winston Groom (novel), Eric Roth (screenplay)",
+        "stars": "Tom Hanks, Robin Wright, Gary Sinise",
+        "rate": 8.8
+      },
+      {
+        "title": "Inception",
+        "introduction": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "releaseYear": "2010",
+        "director": "Christopher Nolan",
+        "writer": "Christopher Nolan",
+        "stars": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+        "rate": 8.7
+      }
+    ]
+  }
+  
