@@ -1,7 +1,4 @@
 
-Presentation Video: https://vimeo.com/853637124?share=copy (no permission issue, will also email to you, as the video is larger than 10m and not ok to be attached here)
-
-
 
 # Assignment8 instruction
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -117,9 +114,6 @@ Xianchu Wen:
 Wen Yu:
 1.PartA: Account Register Login 
 PartD: My list of favorite movies & PartE: Movie detail
-
-
-
 
 
 
