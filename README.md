@@ -1,14 +1,13 @@
 
 
+## UML Attachment 
+![Home Page](https://github.com/winniethebear424/CinemaScoop/blob/main/Screen%20Shot%202023-09-19%20at%202.54.33%20PM.png?raw=true)
+
+
+
 # Assignment8 instruction
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-## Team Information
-### Team Name:&nbsp;&nbsp;CinemaScoop
-### Team member: 
-Fei Cao&nbsp;&nbsp;&nbsp;&nbsp;002642021&nbsp;&nbsp;&nbsp;&nbsp;cao.f@northeastern.edu</br>
-Zhongshun Wei&nbsp;&nbsp;&nbsp;&nbsp;001753421&nbsp;&nbsp;&nbsp;&nbsp;wei.zhong@northeastern.edu</br>
-Xianchu When&nbsp;&nbsp;&nbsp;&nbsp;002682297&nbsp;&nbsp;&nbsp;&nbsp;wen.xian@northeastern.edu</br>
-Wen Yu&nbsp;&nbsp;&nbsp;&nbsp;002602620&nbsp;&nbsp;&nbsp;&nbsp;yu.wen1@northeastern.edu</br>
+
 
 ## Project Topic: Movie rating website
 ## Description: 
@@ -99,25 +98,15 @@ Zhongshu Wei:
 1. PartA: Account Register Login
 2. PartB: Catalog & Main page design & PartC: Movie Search
 
-
 Fei Cao: 
 1. PartA: Account Register Login
 2. PartB: Catalog & Main page design & PartC: Movie Search
-
 
 Xianchu Wen:
 1. PartA: Account Register Login
 2. PartD: My list of favorite movies & PartE: Movie detail
 
-
-
 Wen Yu:
 1.PartA: Account Register Login 
 PartD: My list of favorite movies & PartE: Movie detail
-
-
-
-
-## UML Attachment 
-![Home Page](https://github.com/winniethebear424/CinemaScoop/blob/main/Screen%20Shot%202023-09-19%20at%202.54.33%20PM.png?raw=true)
 
