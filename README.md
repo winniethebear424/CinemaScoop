@@ -119,5 +119,5 @@ PartD: My list of favorite movies & PartE: Movie detail
 
 
 ## UML Attachment 
-![Home Page]([https://github.com/neu-mis-info-6150-summer-2023/final-project-cinemascoop/assets/123126492/7a1b8f8e-2321-482e-ad05-bb1963cb2937](https://github.com/winniethebear424/CinemaScoop/blob/main/Screen%20Shot%202023-09-19%20at%202.54.33%20PM.png?raw=true)https://github.com/winniethebear424/CinemaScoop/blob/main/Screen%20Shot%202023-09-19%20at%202.54.33%20PM.png?raw=true)
+![Home Page](https://github.com/winniethebear424/CinemaScoop/blob/main/Screen%20Shot%202023-09-19%20at%202.54.33%20PM.png?raw=true)
 
